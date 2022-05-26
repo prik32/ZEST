@@ -281,7 +281,7 @@
   
   @media(max-width:800px){
     #events{
-      height: 120vh;
+      height: 220vh;
       align-items: flex-start;
     }
   }
@@ -289,7 +289,7 @@
   
   @media screen and (max-width:650px){
     #events{
-      height: 95vh;
+      height: 220vh;
     }
     .events .edu-content{
       padding-left: 20%;
@@ -343,7 +343,7 @@
   
   @media(max-width:400px){
     #events{
-      height: 80vh;
+      height: 220vh;
     }
     .events .edu-content{
       padding-left: 20%;
@@ -396,13 +396,13 @@
   }
   @media(max-width:390px){
     #events{
-      height: 80vh;
+      height: 210vh;
       align-items: flex-start;
     }
   }
   @media(max-width:370px){
     #events{
-      height: 100vh;
+      height: 200vh;
       align-items: flex-start;
     }
   }
