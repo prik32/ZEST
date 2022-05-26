@@ -158,11 +158,11 @@
     text-align: center;
     font-size: 5em;
   }
-  #education{
+  #events{
     background-color:#BFA2DB;
     padding-top: 80px;
   }
-  #experience{
+  #timeline{
     background-color:#F3F1F5;
     padding-top: 80px;
   }
@@ -203,19 +203,23 @@
       padding-top: 20px;
     }
   }
-  .education .title{
+
+  #events{
+      height: 200vh;
+  }
+  .events .title{
     padding-top: 20px;
     font-size: 40px;
     font-weight: 10px;
   }
   
-  .education .edu-content{
+  .events .edu-content{
     padding-top: 50px;
     display: flex;
     padding-bottom: 40px;
     margin-bottom: 0px;
   }
-  .education .edu-content .card{
+  .events .edu-content .card{
     width: calc(33% - 20px);
     background: #BFA2DB;
     color: #F3F1F5;
@@ -228,55 +232,55 @@
     height: 300px;
     width: 500px;
   }
-  .education  .edu-content .card:hover{
+  .events  .edu-content .card:hover{
     background: #7F7C82;
     color: #F3F1F5;
   }
-  .education .edu-content .card .box{
+  .events .edu-content .card .box{
     transition: all 0.3s ease;
   }
-  .education .edu-content .card:hover .box{
+  .events .edu-content .card:hover .box{
     transform: scale(1.05);
   }
-  .education .edu-content .card i{
+  .events .edu-content .card i{
     font-size: 50px;
     color: black;
     transition: color 0.3s ease;
   }
-  .education .edu-content .card:hover i{
+  .events .edu-content .card:hover i{
     color: #fff;
   }
-  .education .edu-content .card .text{
+  .events .edu-content .card .text{
     font-size: 25px;
   }
-  .education .text{
+  .events .text{
     font-size: 10px;
   }
-  .education .text1{
+  .events .text1{
     font-size: 35px;
   }
-  .education .edu-p4{
+  .events .edu-p4{
     font-size: 25px;
     padding-top: 40px;
   }
-  .education .edu-p2{
+  .events .edu-p2{
     font-size: 25px;
     padding-top: 40px;
   }
   
-  .education .edu-p1{
+  .events .edu-p1{
     padding-top: 40px;
     font-size: 30px;
   }
-  @media(max-width:1110px){
-    #education{
-      height: 120vh;
+  @media(max-width:1500px){
+    #events{
+      height: 250vh;
       align-items: flex-start;
     }
   }
   
   @media(max-width:800px){
-    #education{
+    #events{
       height: 120vh;
       align-items: flex-start;
     }
@@ -284,34 +288,34 @@
   
   
   @media screen and (max-width:650px){
-    #education{
+    #events{
       height: 95vh;
     }
-    .education .edu-content{
+    .events .edu-content{
       padding-left: 20%;
       padding-top: 20px;
       padding-bottom: 0px;
       display:block;
     }
-    .education .edu-p4{
+    .events .edu-p4{
       font-size: 18px;
       padding-top: 0px;
     }
-    .education .edu-p2{
+    .events .edu-p2{
       font-size: 18px;
       padding-top: 0px;
     }
     
-    .education .edu-p1{
+    .events .edu-p1{
       padding-top: 0px;
       font-size: 19px;
     }
-    .education .title{
+    .events .title{
       padding-top: 10px;
       font-size: 25px;
       font-weight: 10px;
     }
-    .education .edu-content .card{
+    .events .edu-content .card{
       padding-left: 0%;
       padding-right: 5%;
       padding-bottom: 10px;
@@ -323,14 +327,14 @@
       margin-right: 0px;
       margin-bottom: 20px;
     }
-    .education .edu-content .card i{
+    .events .edu-content .card i{
       padding-right: 20%;
       padding-left: 0%;
       font-size: 25px;
       padding-top: 0%;
   }
   
-  .education .edu-content .card .box{
+  .events .edu-content .card .box{
     padding-left: 10%;
     display: flex;
     padding-top: 10%;
@@ -338,34 +342,34 @@
   }
   
   @media(max-width:400px){
-    #education{
+    #events{
       height: 80vh;
     }
-    .education .edu-content{
+    .events .edu-content{
       padding-left: 20%;
       padding-top: 15px;
       padding-bottom: 0px;
       display:block;
     }
-    .education .edu-p4{
+    .events .edu-p4{
       font-size: 15px;
       padding-top: 0px;
     }
-    .education .edu-p2{
+    .events .edu-p2{
       font-size: 15px;
       padding-top: 0px;
     }
     
-    .education .edu-p1{
+    .events .edu-p1{
       padding-top: 0px;
       font-size: 15px;
     }
-    .education .title{
+    .events .title{
       padding-top: 7px;
       font-size: 16px;
       font-weight: 10px;
     }
-    .education .edu-content .card{
+    .events .edu-content .card{
       padding-left: 0%;
       padding-right: 5%;
       padding-bottom: 6px;
@@ -377,32 +381,36 @@
       margin-right: 0px;
       margin-bottom: 15px;
     }
-    .education .edu-content .card i{
+    .events .edu-content .card i{
       padding-right: 20%;
       padding-left: 0%;
       font-size: 20px;
       padding-top: 0%;
   }
   
-  .education .edu-content .card .box{
+  .events .edu-content .card .box{
     padding-left: 10%;
     display: flex;
     padding-top: 10%;
   }
   }
   @media(max-width:390px){
-    #education{
+    #events{
       height: 80vh;
       align-items: flex-start;
     }
   }
   @media(max-width:370px){
-    #education{
+    #events{
       height: 100vh;
       align-items: flex-start;
     }
   }
   /*timeline start*/
+  
+  #timeline{
+    height:130vh;
+}
   .timeline {
     padding-top: 40px;
     position: relative;
@@ -527,45 +535,45 @@
       left: 0%;
     }
   
-    #experience .title{
+    #timeline .title{
       padding-top: 15px;
       font-size: 25px;
       font-weight: 7px;
     }
   }
   
-  @media(max-width:1050px){
-    #experience{
-      height:100vh;
+  @media(max-width:1350px){
+    #timeline{
+      height:150vh;
     }
   }
   @media(max-width:780px){
-    #experience{
-      height:100vh;
+    #timeline{
+      height:140vh;
     }
   }
   @media(max-width:600px){
-    #experience{
-      height:95vh;
+    #timeline{
+      height:125vh;
     }
   }
   @media(max-width:400px){
-    #experience{
-      height:100vh;
+    #timeline{
+      height:125vh;
     }
   }
   @media(max-width:380px){
-    #experience{
+    #timeline{
       height:95vh;
     }
   }
   @media(max-width:365px){
-    #experience{
+    #timeline{
       height:120vh;
     }
   }
   /*timeline ends*/
-  #experience .title{
+  #timeline .title{
     padding-top: 0px;
     font-size: 35px;
     font-weight: 10px;
