@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<nav class="navbar" id="navbar">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbars">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="name">Portfolio</label>
+    <ul>
+      <li><a href="#home" class="navbutton" id="a1">Home</a></li>
+      <li><a href="#education" class="navbutton" id="a2">Education</a></li>
+      <li><a href="#experience" class="navbutton" id="a3">Experience</a></li>
+      <li><a href="#github" class="navbutton" id="a4">Github</a></li>
+      <li><a href="#contact" class="navbutton" id="a6">Contact</a></li>
+    </ul>
+  </nav>
+<body>
+
+<!--HOME SECTION-->
+<section class="home" id="home">
+    <h1>Prerna Tulsiani</h1>
+    <h4>Programmer | Web Developer | Problem Solver</h4>
+    <a href="#education"><button class="pagetopagenavbutton">Find Out More !</button></a>
+    <div class="icon-bar">
+      <a href="https://www.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.google.com/" class="google"><i class="fa fa-google"></i></a>
+      <a href="https://www.linkedin.com/signup" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="https://www.youtube.com/" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
+</section>
+
+<!--EDUCATION SECTION-->
+<section class="education" id="education">
+      <p class="title">Education</p>
+      <div class="edu-content">
+          <div class="card">
+              <div class="box">
+                  <i class="fas fa-school"></i>
+                  <div class="text"></div>
+                  <p class="edu-p1">10th-99% <br>12th-96.4%</p>
+              </div>
+
+          </div>
+          <div class="card">
+              <div class="box">
+                  <i class="fas fa-university"></i>
+                  <div class="text"></div>
+                  <p class="edu-p2">Pursuing Computer Science Engineering<br>COEP</p>
+              </div>
+          </div>
+          
+          <div class="card">
+            <div class="box">
+                <i class="fas fa-code" id="skills"></i>
+                <div class="text1"></div>
+                <p class="edu-p2">Python, C, SQL, <br>HTML, CSS, JS</p>
+                  </ul>
+            </div>
+          </div>
+      </div>
+      <a href="#experience"><button class="pagetopagenavbutton">Wait there's more!</button></a>
+</section>
+
+<section id="experience">
+    <p class="title">Experience</p>
+    <div class="timeline">
+        <div class="container left">
+          <div class="content">
+            <h2 class="exptext">Feb,2021</h2>
+            <p class="exptext">Joined COEP</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h2 class="exptext">March,2021</h2>
+            <p class="exptext">Joined Maths Club,COEP</p>
+          </div>
+        </div>
+          <div class="container left">
+          <div class="content">
+            <h2 class="exptext">June,2021</h2>
+            <p class="exptext">Joined ASCI,COEP</p>
+          </div>
+        </div>
+          <div class="container right">
+          <div class="content">
+            <h2 class="exptext">August,2021</h2>
+            <p class="exptext">Tech Expo Coordinator,Mindspark</p>
+          </div>
+        </div>
+    </div>
+        <a href="#github"><button class="pagetopagenavbutton">See all the codes !</button></a>
+</section>
+
+<section id="github">
+    <div class="git_top">
+    <p class="gittitle">GitHub Projects</p>
+    <div class="container_g">
+      <div class="card_g">
+        <div class="card-header_g">
+            <img src="4.JPG"></img>
+        </div>
+        <div class="card-body_g">
+          <h4>ToDo List Project</h4>
+          <p>
+            An efficient ToDo list that lets you make large and overwhelming projects manageable. 
+            <br><a href="https://github.com/pt3002/ToDoList">Click here to view the repo</a>
+            <br><a href="https://ppatil002.github.io/">Click here to start using it!</a>
+          </p>
+        </div>
+      </div>
+      <div class="card_g">
+        <div class="card-header_g">
+            <img src="secondproject.JPG"></img>
+        </div>
+        <div class="card-body_g">
+          <h4>Portfolio Website</h4>
+          <p>
+            A portfolio website with 5 sections:Home, Education, Experience, Github and Contact.
+            <br><a href="https://github.com/pt3002/pt3002.github.io">Click here to view the repo</a>
+            <br><a href="https://pt3002.github.io/">Click here to view to it!</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+</section>
+
+<section id="contact">
+  <div class="wrapper">
+    <h2>CONTACT</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" name="Email" id="email" placeholder="email@domain.tld" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="Message" id="message" rows="5" placeholder="Type your message here...."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="submit" id="submit"><i class="far fa-paper-plane"></i>Send</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
